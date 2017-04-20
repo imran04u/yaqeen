@@ -1,0 +1,510 @@
+
+@media screen and (max-width: 1366px) {
+.social {
+	width: 30%;
+}
+.book-main {
+	width: 100%;
+	left: 2%;
+}
+.guest select {
+	background-position: 89px 16px;
+}
+.top-left {
+	min-height: 500px;
+}
+.sy-slide > a > img {
+	min-height: 500px !important;
+}
+.topnav ul li a {
+	font-size: 12px;
+	padding: 5px 10px;
+}
+
+.page-title {
+	margin-top: 45px;
+}
+.rate p {
+	margin-top: 0px;
+}
+.innernav .mobilemenu nav ul li:first-child {
+	padding-left: 80px;
+}
+.innernav .mobilemenu nav ul li:last-child {
+	padding-right: 80px;
+}
+.innernav .mobilemenu nav ul li {
+	margin-left: 8px;
+}
+.innernav .mobilemenu li span {
+	margin-left: 2px;
+}
+.log-form input[type="text"], input[type="password"] {
+	width: 85%;
+}
+}
+
+@media screen and (max-width: 1024px) {
+.top-left {
+	min-height: 500px;
+}
+.sy-slide > a > img {
+	min-height: 500px !important;
+}
+.event5-image {
+	float: left;
+}
+.event5-content {
+	float: left;
+}
+.hotel img {
+	top: 225px;
+}
+.social {
+	width: auto;
+	right: 20px;
+}
+.book-main {
+	display: none;
+}
+.mobile-book {
+	display: block;
+}
+.mobile-book-area .guest select {
+	background-position: 135px 16px;
+}
+.mobile-book-area .room-type select {
+	background-position: 135px 16px;
+}
+.web-arrow {
+	display: none !important;
+}
+.mob-arrow {
+	display: block !important;
+}
+::-webkit-scrollbar {
+display:none;
+}
+::-webkit-scrollbar-thumb {
+display:none;
+}
+.ipad-custom {
+	margin-top: 80px;
+}
+.pic3 img {
+	height: 122px;
+}
+.pic4 img {
+	max-width: 223px;
+}
+
+.topnav ul li a {
+	float: none;
+	border-right: 0px;
+	width: 100%;
+	display: block;
+	border-bottom: 0px;
+}
+.cornor {
+	border-radius: 0px;
+}
+.topnav ul {
+	border-radius: 0px;
+}
+.facility p {
+	padding-right: 0px;
+}
+.facility h2 {
+	height: 45px;
+}
+h4 {
+	font-size: 50px;
+	line-height: 42px;
+}
+.page-title p {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.content-slider {
+	width: 100%;
+}
+.rooms-slider {
+	width: 62%;
+	float: left;
+}
+.news-area h2 {
+	font-size: 18px;
+}
+.topnav li:first-child a {
+	border-radius: 0px;
+}
+.innernav .mobilemenu nav ul {
+	padding: 0px;
+}
+.innernav .mobilemenu nav ul li:first-child {
+	padding-left: 0px;
+	background: none !important;
+}
+.innernav .mobilemenu nav ul li:last-child {
+	padding-right: 0px;
+	background: none !important;
+}
+.ipad-ad {
+	width: 100%;
+}
+.log-form input[type="text"], input[type="password"] {
+	width: 88%;
+}
+.reservation li {
+	display: block;
+}
+.reservation li a {
+	width: 100%;
+	border-left: 1px #ccc solid;
+	border-top: 0px;
+}
+.reservation li:first-child a {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border-top: 1px #ccc solid;
+}
+.reservation li:last-child a {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.modify-area {
+	width: 100%;
+	float: none;
+}
+.mode-btn {
+	float: left;
+	margin-top: 20px;
+}
+}
+
+@media screen and (max-width: 768px) {
+.ipad-custom {
+	margin-top: 0px;
+}
+.home-img {
+	height: inherit;
+}
+.mean-container .mean-nav ul span {
+	display: none !important;
+}
+.mobile-book-area {
+	width: 82%;
+}
+.mobile-book-area .guest select {
+	background-position: 105px 16px;
+}
+.mobile-book-area .room-type select {
+	background-position: 105px 16px;
+}
+.navigation {
+	display: none;
+}
+.hotel, .pic3, .pic4 {
+	display: none;
+}
+.intro {
+	margin-top: 50px;
+}
+.event-main {
+	padding-top: 50px;
+}
+.events-head p {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.offers-head p {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.box2 {
+	float: none;
+}
+.fixed-area {
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+.fixed-area .logo img {
+	width: 25%;
+	padding-top: 75px;
+}
+.inner-right {
+	width: 100%;
+	float: none;
+}
+.page-title {
+	margin-top: 0px;
+}
+.rooms-slider {
+	width: 75%;
+}
+.fixed-area .logo {
+	margin-top: 0px;
+}
+.floralhide {
+	display: none;
+}
+.footer-inner {
+	display: none;
+}
+.fixed-area .social {
+	display: none;
+}
+.foot-ipad {
+	display: block;
+}
+.foot-ipad .follow {
+	color: #000;
+}
+.foot-ipad .social {
+	right: 0px;
+	top: 0px;
+	position: inherit;
+}
+.foot-ipad p {
+	margin-top: 0px;
+}
+.foot-ipad .social ul {
+	float: right;
+}
+.submitarea {
+	margin-bottom: 40px;
+}
+.log-form {
+	margin-bottom: 25px;
+}
+.log-form input[type="text"], input[type="password"] {
+	width: 92%;
+}
+}
+
+@media (max-width: 767px) {
+.more-area {
+	text-align: left;
+	margin-left: 20px;
+}
+.map {
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.top-left {
+	width: 100%;
+	float: none;
+	min-height: 400px;
+}
+.top-right {
+	width: 100%;
+	float: none;
+}
+.logo {
+	margin-top: 7%;
+}
+.sy-slide > a > img {
+	min-height: inherit !important;
+}
+.checkin, .checkout, .guest {
+	border-right: none;
+	border-bottom: 1px #ccc solid;
+}
+.mobile-book-area {
+	width: 100%;
+	float: none;
+	height: auto;
+	background: none;
+}
+.book-btn {
+	width: 95%;
+	float: none;
+	display: block;
+	margin: 0 auto;
+}
+.box1 {
+	float: none;
+}
+.box3 {
+	float: none;
+}
+.mob-arrow {
+	display: none !important;
+}
+.arrow-hide {
+	display: none !important;
+}
+.news-area p {
+	height: auto;
+}
+}
+
+@media screen and (max-width: 640px) {
+.mobile-book-area .guest select {
+	background-position: 99.5% 50%;
+}
+.mobile-book-area .room-type select {
+	background-position: 99.5% 50%;
+}
+.book-btn {
+	margin-top: 25px;
+}
+.box1 {
+	width: 74%;
+	margin: 0 auto;
+}
+.box2 {
+	width: 74%;
+	margin: 0 auto;
+}
+.box3 {
+	width: 74%;
+	margin: 0 auto;
+}
+.event-main {
+	padding-bottom: 80px;
+}
+.rooms-slider {
+	width: 71%;
+}
+.foot-ipad .social {
+	left: 0px;
+	margin-top: 10px;
+}
+.booknow a {
+	float: left;
+	margin-top: 15px;
+}
+.nopad-left {
+	padding-left: 15px;
+}
+.foot-ipad .social ul {
+	float: left;
+}
+.logo img {
+	padding-top: 60px;
+}
+.log-form input[type="text"], input[type="password"] {
+	width: 91%;
+}
+.modify-area .date-box input, .modify-area .guest select, .modify-area .room-type select {
+	border-bottom: 0px;
+}
+.arrow-bottom {
+	display: block;
+	top: 17px;
+	right: 9px;
+}
+.guest select, .room-type select {
+	background: none;
+}
+}
+
+@media screen and (max-width: 568px) {
+.log-form input[type="text"], input[type="password"] {
+	width: 89%;
+}
+}
+
+@media screen and (max-width: 480px) {
+.box1 {
+	width: 100%;
+	margin: 0 auto;
+}
+.box2 {
+	width: 100%;
+	margin: 0 auto;
+}
+.box3 {
+	width: 100%;
+	margin: 0 auto;
+}
+.offers-head p {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.events-head p {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.rooms-slider {
+	width: 59%;
+}
+.log-form input[type="text"], input[type="password"] {
+	width: 87%;
+}
+}
+
+@media screen and (max-width: 360px) {
+.box1 {
+	width: 64%;
+	margin: 0 auto;
+	text-align: center;
+}
+.box2 {
+	width: 64%;
+	margin: 0 auto;
+	text-align: center;
+}
+.box3 {
+	width: 64%;
+	margin: 0 auto;
+	text-align: center;
+}
+.event1-content p, .event2-content p, .event3-content p, .event4-content p, .event5-content p {
+	text-align: center;
+}
+.rooms {
+	width: 140px;
+}
+.rooms-slider {
+	width: 50%;
+}
+.icons-area li {
+	border-right: 0px;
+}
+.log-form input[type="text"], input[type="password"] {
+	width: 82%;
+}
+h4 {
+	font-size: 40px;
+}
+}
+
+@media screen and (max-width: 320px) {
+.box1 {
+	width: 73%;
+	margin: 0 auto;
+}
+.box2 {
+	width: 73%;
+	margin: 0 auto;
+}
+.box3 {
+	width: 73%;
+	margin: 0 auto;
+}
+.rooms-slider {
+	width: 50%;
+}
+.rooms {
+	width: 120px;
+	padding-left: 20px;
+}
+.logo img {
+	width: 33%;
+}
+h4 {
+	font-size: 35px;
+}
+.log-form input[type="text"], input[type="password"] {
+	width: 79%;
+}
+.amount {
+	position: inherit;
+	top: 8px;
+}
+}
