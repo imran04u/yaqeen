@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Mogra');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    font-family: 'Lato', sans-serif;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+.header {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    background-color: #ad0052;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 500px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.ramadanTxt {
+    width: 100%;
+    text-align: center;
+}
+.ramadanTxt img {
+    margin: auto;
+    padding-top: 30px; 
+    display:block;
+    height:200px;
+}
+.ramadanTxt h2 {
+    margin: 25px 0;
+    font-size: 50px;
+    line-height: 50px;
+    font-family: 'Mogra', cursive;
+    color: #fff621;
+    text-align: center;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.2);
+}
+.ramadanTxt h3 {
+    margin: 0 0 15px 0;
+    font-size: 35px;
+    line-height: 30px;
+    font-family: 'Mogra', cursive;
+    color: #fe9b7c;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgba(123, 31, 3, 0.4);
+}
+.lamp {
+    position: absolute;
+    top: 0;
+    height: 300px;
+    background:url(../img/lampoff.png) no-repeat center top;
+    background-size: cover;
+}
+.lamp1 {
+    left:0;
+}
+.lamp2 {
+    right:0;
+}
+.lamp img {
+    height: 300px;
+    opacity: 0;
+}
+.lamp img {
+    animation: pulse 7s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@-webkit-keyframes pulse {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@-moz-keyframes pulse {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.lamp{
+    -webkit-animation-name: Floatingx;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: Floating;
+    -moz-animation-duration: 6s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+
+
+}
+
+@keyframes Floatingx {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(2deg);
+        -moz-transform: rotate(2deg);
+        -o-transform: rotate(2deg);
+        -ms-transform: rotate(2deg);
+        transform: rotate(2deg);
+    }
+    100% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+@-webkit-keyframes Floatingx {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(2deg);
+        -moz-transform: rotate(2deg);
+        -o-transform: rotate(2deg);
+        -ms-transform: rotate(2deg);
+        transform: rotate(2deg);
+    }
+    100% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+@-moz-keyframes Floatingx {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(2deg);
+        -moz-transform: rotate(2deg);
+        -o-transform: rotate(2deg);
+        -ms-transform: rotate(2deg);
+        transform: rotate(2deg);
+    }
+    100% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+
+.button.success {
+    margin: 30px 0 0 0;
+    text-align: center;
+    padding: 15px 40px;
+    border-radius: 45px;
+    font-size: 20px;
+    width: 160px;
+    /* background-image: url(royal-glow-bg-hover.png); */
+    background: -webkit-linear-gradient(top,#9fff8e 0%, #56ad4b 50%, #4c9036 50%,#4dec29 100%);
+    background:-moz-linear-gradient(top,#8ED3FF 0%, #5D85A3 50%, #254862 50%,#4FAAF1 100%);
+    background:-ms-linear-gradient(top,#8ED3FF 0%, #5D85A3 50%, #254862 50%,#4FAAF1 100%);
+    background:-o-linear-gradient(top,#8ED3FF 0%, #5D85A3 50%, #254862 50%,#4FAAF1 100%);
+    background:linear-gradient(top,#8ED3FF 0%, #5D85A3 50%, #254862 50%,#4FAAF1 100%);
+    -webkit-box-shadow: 0px 0px 5px red;
+    -moz-box-shadow: 0px 0px 5px #3891D6;
+    -ms-box-shadow: 0px 0px 5px #3891D6;
+    -o-box-shadow: 0px 0px 5px #3891D6;
+    box-shadow: 0px 0px 19px #fbaad0;
+}
+.blur {
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.98);
+    -o-transform: scale(0.98);
+    -ms-transform: scale(0.98);
+    transform: scale(0.98);
+    filter: blur(2px);
+}
+.bodyblur:before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(173, 0, 82, 0.8);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#values {
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    display: none;
+    z-index: 100;
+    padding: 50px 10%;
+}
+
+.name {
+    overflow: hidden;
+    display: block;
+    width:29%;
+    margin: 2%;
+    padding: 15px;
+    text-align: center;
+    float: left;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0,0,0,0.15);
+}
+.empBlk img {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border: 2px #ccc solid;
+}
+.empBlk h4 {
+   font-size: 20px;
+   margin: 0;
+   color: #000;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+.empBlk p {
+   font-size: 15px;
+   margin: 0;
+   color: #333;
+   font-weight: 700;
+}
+#values > :not(.name) {
+   background-color: #fff;
+   padding: 10px;
+   text-align: center;
+   position: relative;
+   box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.1); 
+}
+#values > :not(.name):before {
+    content: 'Mabrook!';
+    font-size: 35px;
+    font-family: 'Mogra', cursive;
+    color: green;
+    margin-bottom: 80px;
+}
+#values > :not(.name):after {
+    content: 'Below employee got selected for Hajj';
+    font-size: 25px;
+    font-family: 'Mogra', cursive;
+    color: #666;
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left:0;
+    width: 100%;
+}
+#values > :not(.name) .empBlk  {
+    padding-top: 60px;
+}
+#names {
+    display: none;
+    padding: 5px;
+}
+
+.extra {
+    font-size: 16px;
+    margin-top: 20px;
+}
+.content {
+    padding:20px; 
+}
+.logo {
+    padding:10px;
+    float: left; 
+}
+.content h2 {
+   padding: 60px 0 0 20px;
+   float: left;
+   font-size: 30px;
+   line-height: 40px;
+   font-family: 'Mogra', cursive;
+   color: #535753;
+   margin-left: 20px;
+   border-left: 1px #ccc solid;
+}
+.dates {
+    position: absolute;
+    right: 20px;
+}
