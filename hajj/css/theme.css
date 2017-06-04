@@ -263,8 +263,9 @@ body, html {
     border-radius: 100%;
     width: 100px;
     height: 100px;
-    margin-bottom: 15px;
+    margin:0 auto 15px;
     border: 2px #ccc solid;
+    display: none;
 }
 .empBlk h4 {
    font-size: 20px;
@@ -306,6 +307,9 @@ body, html {
 }
 #values > :not(.name) .empBlk  {
     padding-top: 60px;
+}
+#values > :not(.name) .empBlk  img {
+    display: block;
 }
 #names {
     display: none;
