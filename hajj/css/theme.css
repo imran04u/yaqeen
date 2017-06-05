@@ -352,4 +352,5 @@ body, html {
 .dates {
     position: absolute;
     right: 20px;
+    bottom: -135px;
 }
