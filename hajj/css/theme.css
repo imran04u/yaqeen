@@ -197,14 +197,14 @@ body, html {
 }
 
 
-.button.success {
+/*.button.success {
     margin: 30px 0 0 0;
     text-align: center;
     padding: 15px 40px;
     border-radius: 45px;
     font-size: 20px;
     width: 160px;
-    /* background-image: url(royal-glow-bg-hover.png); */
+   
     background: -webkit-linear-gradient(top,#9fff8e 0%, #56ad4b 50%, #4c9036 50%,#4dec29 100%);
     background:-moz-linear-gradient(top,#8ED3FF 0%, #5D85A3 50%, #254862 50%,#4FAAF1 100%);
     background:-ms-linear-gradient(top,#8ED3FF 0%, #5D85A3 50%, #254862 50%,#4FAAF1 100%);
@@ -215,6 +215,18 @@ body, html {
     -ms-box-shadow: 0px 0px 5px #3891D6;
     -o-box-shadow: 0px 0px 5px #3891D6;
     box-shadow: 0px 0px 19px #fbaad0;
+    }*/
+
+    .button.success {
+     background-color: transparent !important;
+     padding: 0;
+     border: 0 !important;
+     outline: 0;
+     box-shadow: none;
+ }
+ .button.success img {
+    height: 140px;
+        padding: 0;
 }
 .blur {
     -webkit-transform: scale(0.5);
@@ -268,24 +280,24 @@ body, html {
     display: none;
 }
 .empBlk h4 {
-   font-size: 20px;
-   margin: 0;
-   color: #000;
-   font-weight: 700;
-   text-transform: uppercase;
+ font-size: 20px;
+ margin: 0;
+ color: #000;
+ font-weight: 700;
+ text-transform: uppercase;
 }
 .empBlk p {
-   font-size: 15px;
-   margin: 0;
-   color: #333;
-   font-weight: 700;
+ font-size: 15px;
+ margin: 0;
+ color: #333;
+ font-weight: 700;
 }
 #values > :not(.name) {
-   background-color: #fff;
-   padding: 10px;
-   text-align: center;
-   position: relative;
-   box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.1); 
+ background-color: #fff;
+ padding: 10px;
+ text-align: center;
+ position: relative;
+ box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.1); 
 }
 #values > :not(.name):before {
     content: 'Mabrook!';
@@ -328,14 +340,14 @@ body, html {
     float: left; 
 }
 .content h2 {
-   padding: 60px 0 0 20px;
-   float: left;
-   font-size: 30px;
-   line-height: 40px;
-   font-family: 'Mogra', cursive;
-   color: #535753;
-   margin-left: 20px;
-   border-left: 1px #ccc solid;
+ padding: 60px 0 0 20px;
+ float: left;
+ font-size: 30px;
+ line-height: 40px;
+ font-family: 'Mogra', cursive;
+ color: #535753;
+ margin-left: 20px;
+ border-left: 1px #ccc solid;
 }
 .dates {
     position: absolute;

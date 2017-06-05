@@ -25,9 +25,9 @@
         <div class="container">
             <div class="ramadanTxt">
                 <img src="img/ramadan.png">
-                <h2>RAMADAN MUBARAK - 2017</h2>
-                <h3>WELCOME TO IFTAAR PARTY</h3>
-                <button class="success button" id="go" onclick="go();">Select!</button>
+                <h2>RAMADAN MUBARAK</h2>
+                <h3>Welcome to the Iftar Party of Albawardi Group</h3>
+                <button class="success button" id="go" onclick="go();"><img src="img/pressbtn.png" /></button>
             </div>
             <div class="lamp lamp1">
                 <img src="img/lampon.png">
@@ -274,7 +274,8 @@
             $('#result1').animate({
                 height: '+=60px'
             });
-            $('#result1').append('<div class="extra"><a class="small alert button" href="#" onClick="removevictim();">Remove' + name[1] + ' from list</a></div>');
+          //  $('#result1').append('<div class="extra"><a class="small alert button" href="#" onClick="removevictim();">Remove' + name[1] + // ' from list</a></div>');
+            $('#result1').append('<div class="extra"><a class="small alert button" href="#" onClick="removevictim();">Select Next Employee</a></div>');
 
             $('#go').removeAttr('disabled', 'disabled');
             $('#list').removeAttr('disabled', 'disabled');
