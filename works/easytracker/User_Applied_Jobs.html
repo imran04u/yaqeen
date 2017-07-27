@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>EASYTASKER</title>
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
+<!-- Stylesheet -->
+<link rel="stylesheet" href="css/bootstrap.css" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body style="overflow:hidden;">
+<!-- Header -->
+<header class="header">
+  <div class="container">
+    <div class="logo"> <a href="index.html"><img src="images/logo.png" alt="EasyTracker" /></a> </div>
+    <ul class="top-nav">
+      <li><a href="browsetask.html">Browse a task</a></li>
+      <li><a href="posttask.html">Post a task</a></li>
+      <li><a id="modal_trigger" href="#modal">Login / Register</a></li>
+      <!-- user login dropdown start-->
+      <li class="dropdown loged-btn"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"> <img alt="" src="images/avatar1_small.jpg"> <span class="username">John Doe</span> <b class="caret"></b> </a>
+        <ul class="dropdown-menu extended logout">
+          <li><a href="#"><i class=" fa fa-suitcase"></i>Profile</a></li>
+          <li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
+          <li><a href="login.html"><i class="fa fa-key"></i> Log Out</a></li>
+        </ul>
+      </li>
+      <!-- user login dropdown end -->
+    </ul>
+  </div>
+</header>
+<div class="clear height90"></div>
+<div class="innercontent clearfix">
+  <div class="container"> 
+    
+    <!--notification start-->
+    <section class="panel">
+      <header class="panel-heading"> Job Status <span class="tools pull-right"> 
+        <!-- <a href="javascript:;" class="fa fa-times"></a> --> 
+        </span> </header>
+      <div class="panel-body">
+        <div class="col-md-4">
+        <div class="appliedjobs">
+        <a href="javascript:;" class="fa fa-times"></a>
+          <h2>Move / deliver lounge suite</h2>
+          <h3><i class="fa fa-map-marker" aria-hidden="true"></i><span>Mount Colah NSW, Australia</span></h3>
+          <div class="label-status">Status<span class="open">open</span></div>
+        </div></div>
+        
+        <div class="col-md-4">
+        <div class="appliedjobs">
+        <a href="javascript:;" class="fa fa-times"></a>
+          <h2>Move / deliver lounge suite</h2>
+          <h3><i class="fa fa-map-marker" aria-hidden="true"></i><span>Mount Colah NSW, Australia</span></h3>
+          <div class="label-status">Status<span class="offered">Offered</span></div>
+        </div></div>
+        
+        <div class="col-md-4">
+        <div class="appliedjobs">
+        <a href="javascript:;" class="fa fa-times"></a>
+          <h2>Move / deliver lounge suite</h2>
+          <h3><i class="fa fa-map-marker" aria-hidden="true"></i><span>Mount Colah NSW, Australia</span></h3>
+          <div class="label-status">Status<span class="closed">Closed</span></div>
+        </div></div>
+        
+        
+      </div>
+    </section>
+  </div>
+</div>
+<!-- Footer -->
+<footer>
+  <div class="copyrights">
+    <div class="container">
+      <p class="pull-left">&copy; 2016 easytasker.com. All rights reserved</p>
+      <p class="pull-right"><a href="http://innofeast.com" target="_blank">Powered by innofeast</a></p>
+    </div>
+  </div>
+</footer>
+
+<!-- jQuery Library --> 
+<script src="js/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

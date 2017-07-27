@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>EASYTASKER</title>
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
+<!-- Stylesheet -->
+<link rel="stylesheet" href="css/bootstrap.css" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/prettify.css" />
+</head>
+
+<body style="overflow:hidden;">
+<!-- Header -->
+<header class="header">
+  <div class="container">
+    <div class="logo"> <a href="index.html"><img src="images/logo.png" alt="EasyTracker" /></a> </div>
+    <ul class="top-nav">
+      <li><a href="browsetask.html">Browse a task</a></li>
+      <li><a href="posttask.html">Post a task</a></li>
+      <li><a id="modal_trigger" href="#modal">Login / Register</a></li>
+      <!-- user login dropdown start-->
+      <li class="dropdown loged-btn"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"> <img alt="" src="images/avatar1_small.jpg"> <span class="username">John Doe</span> <b class="caret"></b> </a>
+        <ul class="dropdown-menu extended logout">
+          <li><a href="#"><i class=" fa fa-suitcase"></i>Profile</a></li>
+          <li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
+          <li><a href="login.html"><i class="fa fa-key"></i> Log Out</a></li>
+        </ul>
+      </li>
+      <!-- user login dropdown end -->
+    </ul>
+  </div>
+</header>
+<div class="clear height90"></div>
+<div class="innercontent clearfix">
+  <div class="container"> 
+    <!-- Form Starts -->
+ <div id="progressbarwizard" class="pull-in">
+                                        <ul>
+                                            <li><a href="#account-2" data-toggle="tab">Account</a></li>
+                                            <li><a href="#profile-tab-2" data-toggle="tab">Profile</a></li>
+                                            <li><a href="#finish-2" data-toggle="tab">Finish</a></li>
+                                        </ul>
+
+                                        <div class="tab-content b-0 m-b-0">
+
+                                            <div id="bar" class="progress progress-striped progress-bar-primary-alt active">
+                                                <div class="bar progress-bar progress-bar-primary"></div>
+                                            </div>
+
+                                            <div class="tab-pane p-t-10 fade" id="account-2">
+                                                <div class="row">
+                                                    <div class="form-group col-md-6 clearfix">
+                                                        <label class="col-md-3 control-label " for="userName1">First name *</label>
+                                                        <div class="col-md-9">
+                                                            <input class="form-control required" id="userName1" name="userName" type="text">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group col-md-6 clearfix">
+                                                       <label class="col-md-3 control-label " for="userName1">Last name *</label>
+                                                        <div class="col-md-9">
+                                                            <input class="form-control required" id="userName1" name="userName" type="text">
+
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-group clearfix">
+                                                        <label class="col-md-3 control-label " for="confirm1">Confirm Password *</label>
+                                                        <div class="col-md-9">
+                                                            <input id="confirm1" name="confirm" type="text" class="required form-control">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane p-t-10 fade" id="profile-tab-2">
+                                                <div class="row">
+                                                    <div class="form-group clearfix">
+                                                        <label class="col-lg-2 control-label" for="name1"> First name *</label>
+                                                        <div class="col-lg-10">
+                                                            <input id="name1" name="name" type="text" class="required form-control">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <label class="col-lg-2 control-label " for="surname1"> Last name *</label>
+                                                        <div class="col-lg-10">
+                                                            <input id="surname1" name="surname" type="text" class="required form-control">
+
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-group clearfix">
+                                                        <label class="col-lg-2 control-label " for="email1">Email *</label>
+                                                        <div class="col-lg-10">
+                                                            <input id="email1" name="email" type="text" class="required email form-control">
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane p-t-10 fade" id="finish-2">
+                                                <div class="row">
+                                                    <div class="form-group clearfix">
+                                                        <div class="col-lg-12">
+                                                            <div class="checkbox checkbox-primary">
+                                                                <input id="checkbox-h1" type="checkbox">
+                                                                <label for="checkbox-h1">
+                                                                    I agree with the Terms and Conditions.
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <ul class="pager m-b-0 wizard">
+                                                <li class="previous first" style="display:none;"><a href="#">First</a>
+                                                </li>
+                                                <li class="previous"><a href="#" class="btn btn-primary waves-effect waves-light">Previous</a></li>
+                                                <li class="next last" style="display:none;"><a href="#">Last</a></li>
+                                                <li class="next"><a href="#" class="btn btn-primary waves-effect waves-light">Next</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+    <!-- Form Ends --> 
+  </div>
+</div>
+<!-- Footer -->
+<footer>
+  <div class="copyrights">
+    <div class="container">
+      <p class="pull-left">&copy; 2016 easytasker.com. All rights reserved</p>
+      <p class="pull-right"><a href="http://innofeast.com" target="_blank">Powered by innofeast</a></p>
+    </div>
+  </div>
+</footer>
+
+<!-- jQuery Library --> 
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="js/bootstrap.min.js"></script>
+  <!-- Form wizard -->
+        <script src="js/wizard/jquery.bootstrap.wizard.js"></script>
+        <script src="js/wizard/jquery.validate.min.js"></script>
+ <script type="text/javascript">
+            $(document).ready(function() {
+
+                $('#progressbarwizard').bootstrapWizard({onTabShow: function(tab, navigation, index) {
+                    var $total = navigation.find('li').length;
+                    var $current = index+1;
+                    var $percent = ($current/$total) * 100;
+                    $('#progressbarwizard').find('.bar').css({width:$percent+'%'});
+                },
+                'tabClass': 'nav nav-tabs navtab-wizard nav-justified bg-muted'});
+
+
+
+            
+            });
+
+        </script>
+</body>
+</html>

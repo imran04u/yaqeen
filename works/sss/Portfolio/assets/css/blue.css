@@ -1,0 +1,80 @@
+a:hover {
+  color: #5C54FF;
+}
+.navbar-toggle .icon,
+.navbar-toggle .icon::after,
+.navbar-toggle .icon::before {
+  background-color: #5C54FF;
+}
+.navbar-toggle.active {
+  background-color: #5C54FF;
+}
+.navbar-collapse {
+  background-color: #5C54FF;
+}
+.hire-me a {
+  color: #5C54FF;
+}
+.img-content .img-back {
+  border: 20px solid #5C54FF;
+}
+.features-inner .features-content a {
+  color: #5C54FF;
+}
+.features-inner:hover .features-content a:hover {
+  color: #5C54FF;
+}
+.load-more a:hover {
+  color: #5C54FF;
+}
+.part-2 .nav li.click.active h3 {
+  background: #5C54FF;
+}
+.skills .skill-bar .determinate {
+  background-color: #5C54FF;
+}
+.skills .skill-bar .determinate .fa {
+  border-right: 3px solid #5C54FF;
+}
+.nav-border {
+  border: 20px solid #5C54FF;
+}
+.nav-pills > li.active > a {
+  color: #5C54FF;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover,
+.nav > li > a:hover {
+  color: #5C54FF;
+}
+.featured-content .featured-item .year {
+  color: #5C54FF;
+}
+.blog .blog-item:hover a:hover {
+  color: #5C54FF;
+}
+.c-event {
+  color: #5C54FF;
+}
+.c-event-over {
+  background-color: transparent;
+  color: #5C54FF;
+}
+.pricing-item:hover h3,
+.pricing-item:hover a,
+.pricing-item:hover .fa {
+  color: #5C54FF;
+}
+.border {
+  border: 20px solid #5C54FF;
+}
+.content .name {
+  color: #5C54FF;
+}
+.section-box .contact-list a {
+  color: #5C54FF;
+}
+#form-submit {
+  background: #5C54FF;
+}

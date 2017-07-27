@@ -1,0 +1,152 @@
+/*
+    Document   : Style
+    Created on : May 26, 2015
+    Author     : Imran Rovan
+    Description: SmartSys Responsive stylesheet.
+*/
+
+@media screen and (max-width: 1024px) {
+	.header {
+		position:inherit;
+	}
+	.header-fixed {
+		position:fixed;
+		overflow:visible;
+		height:auto !important;
+	}
+	.rmm-controls {
+  display: block;
+}
+.main-nav {
+  display: none;
+  width: 270px!important;
+  padding: 0;
+  margin: 15px auto;
+  float: none;
+  background: #fff;
+  position: absolute;
+  right: 10px;
+  top: 71px;
+  z-index: 9999;
+}
+.main-nav li, .main-nav li a {
+	background:#eee;
+	float:none;
+	width:100%;
+	text-align:center;
+	height:45px;
+	line-height:45px;
+}
+.fullwidthbanner-container {
+  margin-top:0px;
+}
+.header-fixed .rmm-controls {
+  top: 25px;
+}
+.header-fixed .main-nav {
+	  padding-top: 0px;
+  top:48px;
+}
+}
+@media screen and (max-width: 991px) {
+	.header-top {
+		display:none;
+	}
+	#right-nav {
+	  position: absolute;
+  top: -15px;
+  right: 15px;
+}
+.home-works {
+  margin-top: 0;
+}
+.home-works .wrk-blk1 {
+  float: none;
+  width: 100%;
+  height: auto;
+}
+.home-works .wrk-blk2 {
+  float: none;
+  width: 100%;
+  height: auto;
+}
+.home-works .wrk-blk3 {
+  float: none;
+  width: 100%;
+  height: auto;
+}
+.home-works .wrk-blk1 .half-wrk h2 {
+  position: inherit;
+  bottom: inherit;
+  left: inherit;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.hme-career {
+  background: #053975;
+}
+.hme-services {
+  border-right: none;
+  padding-right: 0;
+}
+.tp-simpleresponsive .caption h2 {
+  font-size: 40px;
+}
+.tp-simpleresponsive .caption h3 {
+  font-size: 20px;
+}
+}
+@media screen and (max-width: 580px) {
+	.tp-simpleresponsive .caption h2 {
+  font-size: 25px;
+}
+.tp-simpleresponsive .caption h3 {
+  font-size: 16px;
+}
+.tp-simpleresponsive .caption a {
+	  font-size: 13px;
+}
+.hme-technology ul li {
+  float: left;
+  width: 50%;
+}
+}
+@media screen and (max-width: 479px) {
+	#logo img {
+		width:75%;
+	}
+	.hme-technology ul li {
+  float: none;
+  width: 100%;
+}
+	.fullwidthbanner-container {
+		display:none;
+	}
+	.hme-career-blk {
+  padding: 0;
+  margin-bottom:15px;
+}
+	.hme-career-blk p {
+		padding:0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

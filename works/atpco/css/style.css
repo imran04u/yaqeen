@@ -1,0 +1,224 @@
+
+/* Reset */
+html, body {
+	margin: 0;
+	padding: 0;
+}
+html, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+}
+ol, ul {
+	list-style: none;
+}
+img {
+	display: block;
+	outline: none;
+}
+img, input, textarea, button {
+	border: 0;
+	outline: 0;
+}
+a, a:hover {
+	text-decoration: none;
+}
+.clear {
+	clear: both;
+	font-size: 0;
+	height: 0;
+}
+.clearfix:after {
+	clear: both;
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+.clearfix {
+	display: block;
+}
+* html .clearfix {
+	height: 1%;
+}
+li.clearfix {
+	display: list-item;
+}
+form legend {
+	display: none;
+}
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html, body, p, a, li, span, div {
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+.relative {
+	position: relative;
+}
+.absolute {
+	position: absolute;
+}
+
+/** Revolution Slider starts **/
+
+.fullwidthbanner-container {
+	margin-top:130px;
+	background-image: url("../images/loader.gif");
+	background-repeat: no-repeat;
+	background-position: 50%;
+	width: 100% !important;
+	position: relative;
+	padding: 0;
+	overflow: visible !important;
+}
+.tp-simpleresponsive ul {
+	list-style:none;
+	padding:0;
+	margin:0
+}
+.tp-simpleresponsive>ul li {
+	list-stye:none;
+	position:absolute;
+	visibility:hidden
+}
+.tp-static-layers {
+	position:absolute;
+	z-index:505;
+	top:0px;
+	left:0px
+}
+.tp-hide-revslider, .tp-caption.tp-hidden-caption {
+	visibility:hidden !important;
+	display:none !important
+}
+.tp-caption {
+	z-index:1;
+}
+img.tp-slider-alternative-image {
+	width:100;
+	height:auto;
+}
+.fullscreen-container {
+	width:100%;
+	position:relative;
+	padding:0;
+}
+.fullwidthbanner-container {
+	width:100%;
+	position:relative;
+	padding:0;
+	overflow: visible !important;
+}
+.fullwidthbanner-container .fullwidthbanner {
+	width:100%;
+	position:relative;
+}
+.tp-simpleresponsive .caption, .tp-simpleresponsive .tp-caption {
+	/*-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";		-moz-opacity: 0;	-khtml-opacity: 0;	opacity: 0; */
+	position:absolute;
+	visibility: hidden;
+	-webkit-font-smoothing: antialiased !important;
+}
+.tp-simpleresponsive img {
+	max-width:none
+}
+.noFilterClass {
+	filter:none !important;
+}
+.tp-simpleresponsive img {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+}
+.tp-simpleresponsive a {
+	text-decoration:none
+}
+.tp-simpleresponsive ul, .tp-simpleresponsive ul li, .tp-simpleresponsive ul li:before {
+	list-style:none;
+	padding:0 !important;
+	margin:0 !important;
+	list-style:none !important;
+	overflow-x: visible;
+	overflow-y: visible;
+	background-image:none
+}
+.tp-simpleresponsive >ul >li {
+	list-style:none;
+	position:absolute;
+	visibility:hidden;
+	overflow: visible !important;
+}
+.tp-loader {
+	top:50%;
+	left:50%;
+	z-index:10000;
+	position:absolute;
+}
+.banner-two {
+	font-size: 50px;
+	line-height:55px;
+	font-weight: 900;
+	text-decoration: none !important;
+	color: white !important;
+	word-wrap: break-word;
+	width:550px;
+	text-transform:uppercase;
+}
+.banner-three {
+	font-size:15px;
+	font-weight: 300;
+	text-decoration: none !important;
+	color: white !important;
+	font-style:italic;
+	width:550px;
+}
+.banner-three a {
+	color:#fff;
+	background:url(../images/ico-more.png) no-repeat right center;
+	padding-right: 25px;
+	height: 25px;
+	line-height: 20px;
+	display: inline-block;
+}
+.banner-one {
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: 100;
+	text-decoration: none !important;
+	color: white !important;
+	word-wrap: break-word;
+	width:550px;
+}
+.tp-leftarrow.large {
+	z-index: 100;
+	cursor: pointer;
+	position: relative;
+	background: url("../images/prev.png") no-Repeat top left;
+	width: 33px;
+	height: 33px;
+	margin-left: 20px;
+	margin-top: -23px;
+	opacity: 0;
+}
+.tp-rightarrow.large {
+	z-index: 100;
+	cursor: pointer;
+	position: relative;
+	background: url("../images/next.png") no-Repeat top left;
+	width: 33px;
+	height: 33px;
+	margin-right: 20px;
+	margin-top: -23px;
+	opacity: 0;
+}
+.fullwidthbanner-container:hover .tp-leftarrow.large, .fullwidthbanner-container:hover .tp-rightarrow.large {
+	opacity: 1;
+}
+/** Revolution Slider Ends **/
+

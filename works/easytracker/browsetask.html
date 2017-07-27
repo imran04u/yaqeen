@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>EASYTASKER</title>
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
+<!-- Stylesheet -->
+<link rel="stylesheet" href="css/bootstrap.css" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body style="overflow:hidden;">
+<!-- Header -->
+<header class="header">
+  <div class="container">
+    <div class="logo"> <a href="index.html"><img src="images/logo.png" alt="EasyTracker" /></a> </div>
+    <ul class="top-nav">
+      <li><a href="browsetask.html">Browse a task</a></li>
+      <li><a href="posttask.html">Post a task</a></li>
+      <li><a id="modal_trigger" href="#modal">Login / Register</a></li>
+    </ul>
+  </div>
+</header>
+<div class="clear height90"></div>
+<!-- Browse a Task -->
+<div class="app-container">
+  <div class="taskview"> 
+    <!-- Controls Block Start -->
+    <div class="task-controls clearfix">
+      <ul>
+        <li><a href="Javascript:void(0);" id="showMap"><i class="fa fa-map-marker" aria-hidden="true"></i> Show Map</a></li>
+        <li><a href="Javascript:void(0);" id="searchBtn"><i class="fa fa-search" aria-hidden="true"></i> Search</a></li>
+        <li><a href="Javascript:void(0);" id="settings"><i class="fa fa-gear" aria-hidden="true"></i> Settings</a></li>
+      </ul>
+      <div class="clear"></div>
+      <div class="tsform clearfix">
+        <div class="tssearch">
+          <input type="text" class="form-control" placeholder="Search Tasks...">
+          <button type="submit" class="btn"><span class=" glyphicon glyphicon-search"></span></button>
+        </div>
+        <div class="tssetting clearfix">
+          <div class="input-append">
+            <label>Task Status</label>
+            <div class="btn-group" data-toggle="buttons-radio">
+              <button class="btn  btn-default">All</button>
+              <button class="btn btn-default">Open</button>
+            </div>
+          </div>
+          <div class="input-append">
+            <label>Task Type</label>
+            <div class="btn-group" data-toggle="buttons-radio">
+              <button class="btn  btn-default active">All</button>
+              <button class="btn btn-default">Task with Location</button>
+              <button class="btn btn-default">Online Task</button>
+            </div>
+          </div>
+          <div class="input-append">
+            <label>Sort by</label>
+            <div class="select-append">
+              <select>
+                <option>Most Recent</option>
+                <option>Distance</option>
+                <option>Task Status</option>
+                <option>Price Ascending</option>
+              </select>
+            </div>
+          </div>
+          <div class="input-append">
+            <label>Base Location</label>
+            <input type="text" class="form-control" placeholder="Kochi, Kerala">
+          </div>
+          <div class="input-append">
+            <label>Show Tasks Within</label>
+            <div class="select-append">
+              <select>
+                <option>5 KM</option>
+                <option>10 KM</option>
+                <option>25 KM</option>
+                <option>50 KM</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <!-- Controls Block Start --> 
+    <!-- Task List Start -->
+    <div class="task-list">
+      <h1 class="pull-left">Browse a Task</h1>
+      <div class="ts-sort pull-right"> <span>Sorting</span> <span class="select-append">
+        <select>
+          <option>All Tasks</option>
+          <option>Open Tasks </option>
+          <option>Online Tasks</option>
+          <option>Projects</option>
+        </select>
+        </span></div>
+      <div class="clear"></div>
+      <!-- Task Block Start -->
+      <div class="tsblk clearfix"> <a href="#" class="tscover"></a>
+        <div class="tsimg"> <img src="images/dummy-profile.jpg" class="img-responsive" /> </div>
+        <div class="tsdesc">
+          <h2>Move / deliver lounge suite</h2>
+          <h3><i class="fa fa-map-marker" aria-hidden="true"></i><span>Mount Colah NSW, Australia</span></h3>
+          <div class="tsproject"><i class="fa fa-user" aria-hidden="true"></i>Project x<span>2</span></div>
+          <div class="tslink"> <a href=""><i class="fa fa-comments-o" aria-hidden="true"></i><span>3</span> Comments</a> <a href=""><i class="fa fa-tag" aria-hidden="true"></i><span>5</span> Offers</a> </div>
+        </div>
+        <div class="tsrate">
+          <h2>$500</h2>
+          <span><i class="fa fa-money" aria-hidden="true"></i>Earn</span> </div>
+      </div>
+      <!-- Task Block End --> 
+      
+      <!-- Task Block Start -->
+      <div class="tsblk clearfix"> <a href="#" class="tscover"></a>
+        <div class="tsimg"> <img src="images/dummy-profile.jpg" class="img-responsive" /> </div>
+        <div class="tsdesc">
+          <h2>Logo and business card design and Website for coprate company</h2>
+          <h3><i class="fa fa-map-marker" aria-hidden="true"></i><span>Mount Colah NSW, Australia</span></h3>
+          <div class="tsproject"><i class="fa fa-user" aria-hidden="true"></i>Project x<span>2</span></div>
+          <div class="tslink"> <a href=""><i class="fa fa-comments-o" aria-hidden="true"></i><span>3</span> Comments</a> <a href=""><i class="fa fa-tag" aria-hidden="true"></i><span>5</span> Offers</a> </div>
+        </div>
+        <div class="tsrate">
+          <h2>$500</h2>
+          <span class="complete"><i class="fa fa-check-circle-o" aria-hidden="true"></i>Complete</span> </div>
+      </div>
+      <!-- Task Block End --> 
+      <!-- Task Block Start -->
+      <div class="tsblk clearfix"> <a href="#" class="tscover"></a>
+        <div class="tsimg"> <img src="images/dummy-profile.jpg" class="img-responsive" /> </div>
+        <div class="tsdesc">
+          <h2>Move / deliver lounge suite</h2>
+          <h3><i class="fa fa-map-marker" aria-hidden="true"></i><span>Mount Colah NSW, Australia</span></h3>
+          <div class="tsproject"><i class="fa fa-user" aria-hidden="true"></i>Project x<span>2</span></div>
+          <div class="tslink"> <a href=""><i class="fa fa-comments-o" aria-hidden="true"></i><span>3</span> Comments</a> <a href=""><i class="fa fa-tag" aria-hidden="true"></i><span>5</span> Offers</a> </div>
+        </div>
+        <div class="tsrate">
+          <h2>$500</h2>
+          <span><i class="fa fa-money" aria-hidden="true"></i>Earn</span> </div>
+      </div>
+      <!-- Task Block End --> 
+      
+      <!-- Task Block Start -->
+      <div class="tsblk clearfix"> <a href="#" class="tscover"></a>
+        <div class="tsimg"> <img src="images/dummy-profile.jpg" class="img-responsive" /> </div>
+        <div class="tsdesc">
+          <h2>Logo and business card design and Website for coprate company</h2>
+          <h3><i class="fa fa-map-marker" aria-hidden="true"></i><span>Mount Colah NSW, Australia</span></h3>
+          <div class="tsproject"><i class="fa fa-user" aria-hidden="true"></i>Project x<span>2</span></div>
+          <div class="tslink"> <a href=""><i class="fa fa-comments-o" aria-hidden="true"></i><span>3</span> Comments</a> <a href=""><i class="fa fa-tag" aria-hidden="true"></i><span>5</span> Offers</a> </div>
+        </div>
+        <div class="tsrate">
+          <h2>$500</h2>
+          <span class="complete"><i class="fa fa-check-circle-o" aria-hidden="true"></i>Complete</span> </div>
+      </div>
+      <!-- Task Block End --> 
+      <!-- Task Block Start -->
+      <div class="tsblk clearfix"> <a href="#" class="tscover"></a>
+        <div class="tsimg"> <img src="images/dummy-profile.jpg" class="img-responsive" /> </div>
+        <div class="tsdesc">
+          <h2>Move / deliver lounge suite</h2>
+          <h3><i class="fa fa-map-marker" aria-hidden="true"></i><span>Mount Colah NSW, Australia</span></h3>
+          <div class="tsproject"><i class="fa fa-user" aria-hidden="true"></i>Project x<span>2</span></div>
+          <div class="tslink"> <a href=""><i class="fa fa-comments-o" aria-hidden="true"></i><span>3</span> Comments</a> <a href=""><i class="fa fa-tag" aria-hidden="true"></i><span>5</span> Offers</a> </div>
+        </div>
+        <div class="tsrate">
+          <h2>$500</h2>
+          <span><i class="fa fa-money" aria-hidden="true"></i>Earn</span> </div>
+      </div>
+      <!-- Task Block End --> 
+      
+      <!-- Task Block Start -->
+      <div class="tsblk clearfix"> <a href="#" class="tscover"></a>
+        <div class="tsimg"> <img src="images/dummy-profile.jpg" class="img-responsive" /> </div>
+        <div class="tsdesc">
+          <h2>Logo and business card design and Website for coprate company</h2>
+          <h3><i class="fa fa-map-marker" aria-hidden="true"></i><span>Mount Colah NSW, Australia</span></h3>
+          <div class="tsproject"><i class="fa fa-user" aria-hidden="true"></i>Project x<span>2</span></div>
+          <div class="tslink"> <a href=""><i class="fa fa-comments-o" aria-hidden="true"></i><span>3</span> Comments</a> <a href=""><i class="fa fa-tag" aria-hidden="true"></i><span>5</span> Offers</a> </div>
+        </div>
+        <div class="tsrate">
+          <h2>$500</h2>
+          <span class="complete"><i class="fa fa-check-circle-o" aria-hidden="true"></i>Complete</span> </div>
+      </div>
+      <!-- Task Block End --> 
+      <!-- Task Block Start -->
+      <div class="tsblk clearfix"> <a href="#" class="tscover"></a>
+        <div class="tsimg"> <img src="images/dummy-profile.jpg" class="img-responsive" /> </div>
+        <div class="tsdesc">
+          <h2>Move / deliver lounge suite</h2>
+          <h3><i class="fa fa-map-marker" aria-hidden="true"></i><span>Mount Colah NSW, Australia</span></h3>
+          <div class="tsproject"><i class="fa fa-user" aria-hidden="true"></i>Project x<span>2</span></div>
+          <div class="tslink"> <a href=""><i class="fa fa-comments-o" aria-hidden="true"></i><span>3</span> Comments</a> <a href=""><i class="fa fa-tag" aria-hidden="true"></i><span>5</span> Offers</a> </div>
+        </div>
+        <div class="tsrate">
+          <h2>$500</h2>
+          <span><i class="fa fa-money" aria-hidden="true"></i>Earn</span> </div>
+      </div>
+      <!-- Task Block End --> 
+      
+      <!-- Task Block Start -->
+      <div class="tsblk clearfix"> <a href="#" class="tscover"></a>
+        <div class="tsimg"> <img src="images/dummy-profile.jpg" class="img-responsive" /> </div>
+        <div class="tsdesc">
+          <h2>Logo and business card design and Website for coprate company</h2>
+          <h3><i class="fa fa-map-marker" aria-hidden="true"></i><span>Mount Colah NSW, Australia</span></h3>
+          <div class="tsproject"><i class="fa fa-user" aria-hidden="true"></i>Project x<span>2</span></div>
+          <div class="tslink"> <a href=""><i class="fa fa-comments-o" aria-hidden="true"></i><span>3</span> Comments</a> <a href=""><i class="fa fa-tag" aria-hidden="true"></i><span>5</span> Offers</a> </div>
+        </div>
+        <div class="tsrate">
+          <h2>$500</h2>
+          <span class="complete"><i class="fa fa-check-circle-o" aria-hidden="true"></i>Complete</span> </div>
+      </div>
+      <!-- Task Block End --> 
+    </div>
+    <!-- Task List Ends--> 
+  </div>
+  <!--Map Block Starts -->
+  <div class="mapview">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d31558.92091253384!2d76.882778029188!3d8.608946665238868!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1460900734736" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+  <!--Map Block Ends --> 
+  <!--Details Block Starts -->
+  <div class="detailsview clearfix"> 
+    <!-- Task Header Starts -->
+    <div class="dtview-header">
+      <h1>Logo and business card design and Website for coprate company</h1>
+      <div class="entry-user">
+        <div class="entry-author"> <a href="#"><img src="images/dummy-profile.jpg" width="92" height="92"></a>by <a class="author-public" href="#"> Doe John </a> </div>
+        <div class="entry-date"> On
+          <time datetime="">01/03/2016</time>
+        </div>
+      </div>
+      <!-- Step Block -->
+      <div class="step-bar">
+        <div class="col-sm-4 step completed selected">Open</div>
+        <div class="col-sm-4 step">Accepted</div>
+        <div class="col-sm-4 step" >Complete</div>
+      </div>
+      
+      <!-- Payment Block -->
+      <div class="dtview-payment">
+        <h6>Payment Details</h6>
+        <div class="task-price"><span>$</span>50</div>
+        <div class="estimated-hours">Approx. 2hrs</div>
+        <button class="button-lrg">Make an Offer</button>
+      </div>
+    </div>
+    <!-- Task Header Ends --> 
+    <!-- Describtion Block -->
+    <div class="dtview-desc">
+      <h5 class="subheading">Describtion</h5>
+      <p>We run a business called Business School for Mums.
+        At the moment we use Thrive Themes(built on Wordpress), WOO Commerce and Stripe to present our offering and facilitate online transactions of our courses.
+        Our current web manager is slow to respond to issues, which is frustrating.
+        Some of the issues / deliverables for instance that have come up, which you would be required to resolve.</p>
+      <div class="tags-blk clearfix">
+        <div class="tags-single">Online</div>
+        <div class="tags-single">Service</div>
+        <div class="tags-single">DUE IN 6 DAYS</div>
+        <div class="tags-single">PAID PAY</div>
+      </div>
+    </div>
+    <!-- Offers Block -->
+    <div class="dtview-offers clearfix">
+      <h5 class="subheading">Offers</h5>
+      <ul>
+        <li class="clearfix">
+          <div class="off-img"> <a href="#"> <img src="images/dummy-profile.jpg" alt=""></a></div>
+          <div class="off-desc">
+            <h5><a href="#">Full Name</a></h5>
+            <div class="descr"> <span class="rating"><img src="images/rating-star-on.png" >&nbsp;<img src="images/rating-star-on.png" >&nbsp;<img src="images/rating-star-on.png" >&nbsp; <img src="images/rating-star-on.png" >&nbsp;<img src="images/rating-star-off.png" ></span>
+              <p>(250 ratings)</p>
+            </div>
+          </div>
+          </a> </li>
+        <li class="clearfix">
+          <div class="off-img"> <a href="#"> <img src="images/dummy-profile.jpg" alt=""></a></div>
+          <div class="off-desc">
+            <h5><a href="#">Full Name</a></h5>
+            <div class="descr"> <span class="rating"><img src="images/rating-star-on.png" >&nbsp;<img src="images/rating-star-on.png" >&nbsp;<img src="images/rating-star-on.png" >&nbsp; <img src="images/rating-star-on.png" >&nbsp;<img src="images/rating-star-off.png" ></span>
+              <p>(250 ratings)</p>
+            </div>
+          </div>
+          </a> </li>
+        <li class="clearfix">
+          <div class="off-img"> <a href="#"> <img src="images/dummy-profile.jpg" alt=""></a></div>
+          <div class="off-desc">
+            <h5><a href="#">Full Name</a></h5>
+            <div class="descr"> <span class="rating"><img src="images/rating-star-on.png" >&nbsp;<img src="images/rating-star-on.png" >&nbsp;<img src="images/rating-star-on.png" >&nbsp; <img src="images/rating-star-on.png" >&nbsp;<img src="images/rating-star-off.png" ></span>
+              <p>(250 ratings)</p>
+            </div>
+          </div>
+          </a> </li>
+        <li class="clearfix">
+          <div class="off-img"> <a href="#"> <img src="images/dummy-profile.jpg" alt=""></a></div>
+          <div class="off-desc">
+            <h5><a href="#">Full Name</a></h5>
+            <div class="descr"> <span class="rating"><img src="images/rating-star-on.png" >&nbsp;<img src="images/rating-star-on.png" >&nbsp;<img src="images/rating-star-on.png" >&nbsp; <img src="images/rating-star-on.png" >&nbsp;<img src="images/rating-star-off.png" ></span>
+              <p>(250 ratings)</p>
+            </div>
+          </div>
+          </a> </li>
+        <li class="clearfix">
+          <div class="off-img"> <a href="#"> <img src="images/dummy-profile.jpg" alt=""></a></div>
+          <div class="off-desc">
+            <h5><a href="#">Full Name</a></h5>
+            <div class="descr"> <span class="rating"><img src="images/rating-star-on.png" >&nbsp;<img src="images/rating-star-on.png" >&nbsp;<img src="images/rating-star-on.png" >&nbsp; <img src="images/rating-star-on.png" >&nbsp;<img src="images/rating-star-off.png" ></span>
+              <p>(250 ratings)</p>
+            </div>
+          </div>
+          </a> </li>
+        <li class="clearfix">
+          <div class="off-img"> <a href="#"> <img src="images/dummy-profile.jpg" alt=""></a></div>
+          <div class="off-desc">
+            <h5><a href="#">Full Name</a></h5>
+            <div class="descr"> <span class="rating"><img src="images/rating-star-on.png" >&nbsp;<img src="images/rating-star-on.png" >&nbsp;<img src="images/rating-star-on.png" >&nbsp; <img src="images/rating-star-on.png" >&nbsp;<img src="images/rating-star-off.png" ></span>
+              <p>(250 ratings)</p>
+            </div>
+          </div>
+          </a> </li>
+      </ul>
+    </div>
+    <!-- Commetns Block -->
+    <div class="dtview-comments clearfix">
+      <h5 class="subheading">TASK ACTIVITY</h5>
+      <div class="dt-comment"> <img src="images/dummy-profile.jpg">
+        <div class="infocomment"> <a href="#">Mattew An</a>8 hours ago </div>
+        <div class="clear"></div>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also </p>
+      </div>
+      <div class="dt-comment"> <img src="images/dummy-profile.jpg">
+        <div class="infocomment"> <a href="#">Mattew An</a>8 hours ago </div>
+        <div class="clear"></div>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also </p>
+      </div>
+      <div class="dt-comment"> <img src="images/dummy-profile.jpg">
+        <div class="infocomment"> <a href="#">Mattew An</a>8 hours ago </div>
+        <div class="clear"></div>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also </p>
+      </div>
+      <div class="dt-comment"> <img src="images/dummy-profile.jpg">
+        <div class="infocomment"> <a href="#">Mattew An</a>8 hours ago </div>
+        <div class="clear"></div>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also </p>
+      </div>
+      <div class="dt-comment"> <img src="images/dummy-profile.jpg">
+        <div class="infocomment"> <a href="#">Mattew An</a>8 hours ago </div>
+        <div class="clear"></div>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also </p>
+      </div>
+    </div>
+    <!-- Login Block -->
+    <div class="dtview-login clearfix">
+      <h2>To join the conversation</h2>
+      <button type="submit" class="sign-in-btn">Login</button>
+      <span>or</span>
+      <button type="submit" class="sign-in-btn">Register</button>
+    </div>
+  </div>
+  <!--Details Block Ends --> 
+</div>
+<!-- Footer -->
+<footer>
+  <div class="copyrights">
+    <div class="container">
+      <p class="pull-left">&copy; 2016 easytasker.com. All rights reserved</p>
+      <p class="pull-right"><a href="http://innofeast.com" target="_blank">Powered by innofeast</a></p>
+    </div>
+  </div>
+</footer>
+
+<!-- jQuery Library --> 
+<script src="js/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script>
+$( document ).ready(function() {
+   // Header Fix
+	$(window).scroll(function () {
+    var height = $(window).scrollTop();
+
+    if (height > 60) {
+        $('.header').addClass('header-small');
+    }
+    else if (height == 0) {
+        $('.header').removeClass('header-small');
+    } });
+	});
+	
+	// Toggle
+	$('#searchBtn').click(function() {
+    $('.task-controls .tssearch').toggle(500);
+});
+	$('#settings').click(function() {
+    $('.task-controls .tssetting').toggle(500);
+});
+// Show details 
+
+$('.tscover').click(function() {
+    $('.detailsview').css('right','0');
+	 $('#showMap').css('display','block');
+});
+	// Show Map
+	$('#showMap').click(function() {
+    $('.detailsview').css('right','-100%');
+	 $('#showMap').css('display','none');
+});
+	</script>
+</body>
+</html>

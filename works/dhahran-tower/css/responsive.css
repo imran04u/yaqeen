@@ -1,0 +1,188 @@
+
+@media screen and (max-width: 1024px) {
+.search label {
+	font-size: 16px;
+}
+.tab-right-block {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.cd-slider-nav .cd-marker, .cd-slider-nav li {
+    width: auto;
+    background: inherit;
+    margin-right: 5% !important;
+}
+.cd-hero-slider {
+    height: 595px !important;
+}
+
+.service-heading h3 {
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 17px;
+}
+.service-heading h2 {
+    font-size: 64px;
+}
+
+.service-block-left {
+    width: 37%;
+}
+.service-main-img {
+    width: 50%;
+}
+.footer-content {
+    width: 75%;
+}
+
+}
+
+@media screen and (max-width: 991px) {
+footer .text-center {
+	text-align: left;
+}
+.pack-head {
+	margin-bottom: 35px;
+}
+.arrow-top {
+	right: 32%;
+}
+}
+
+@media screen and (max-width: 768px) {
+
+.cd-slider-nav {
+    height: auto !important;
+    padding-top: 8px;
+    padding-bottom: 25px;
+
+}
+.cd-slider-nav li{
+	width: 30% !important;	
+	margin-bottom: 15px;
+	margin-right: 3% !important;
+}
+
+.section2-tabs li a{
+	width: auto !important;
+}
+
+.section2-tabs li {
+    margin-right: 3%;
+}
+
+.tab-left-block{
+	width: 100%;	
+}
+
+.additional-service-block {
+    padding: 30px 0;
+}
+
+.footer-content {
+    width: 100%;
+}
+
+.service-main-img {
+    width: 44%;
+}
+.service-block-right {
+    width: 80%;
+    float: right;
+}
+
+#section0 {
+    height: 810px;
+}
+
+}
+
+
+
+@media screen and (max-width: 667px) {
+.appartments-block {
+    margin-top: 10px;
+}
+.section2-tabs li {
+    margin-right: 2%;
+	margin-top: 15px;
+}
+.service-heading h2 {
+    font-size: 45px;
+}
+.service-heading h3 {
+    margin-left: 35px;
+    font-size: 16px;
+}
+.service-heading {
+    left: 0;
+}
+.footer-content p{
+	margin-right:0;	
+}
+
+.contact-number-head {
+    right: 15px;
+}
+
+}
+
+@media screen and (max-width: 500px) {
+
+.cd-slider-nav li {
+    width: 47% !important;
+    margin-bottom: 25px;
+    margin-right: 5% !important;
+}
+
+.service-block-left {
+    width: 100%;
+	position: relative;
+}
+
+.service-heading {
+	left:0;
+    position: relative;
+    /* right: 0; */
+    bottom: 0;
+    margin-bottom: 55px;
+}
+
+.service-block-right ul li {
+    float: right;
+    width: 30%;
+    margin-right: 2%;
+    margin-bottom: 60px;
+}
+
+.service-block-right ul li img{
+	width:100%;	
+}
+.service-block-right {
+    width: 100%;
+    float: right;
+}
+
+.service-main-img {
+    width: 70%;
+}
+
+.footer-content p {
+    float: none;
+    text-align: center;
+}
+.footer-content p:last-child {
+    float: none;
+    margin-top: 10px;
+}
+
+.cd-slider-nav li:nth-child(even){
+    margin-right:0 !important;	
+}
+
+}
+
